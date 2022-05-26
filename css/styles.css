@@ -159,7 +159,7 @@
   background-color: #2f303a;
 }
 
-.aside {
+.footer-list {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -168,7 +168,16 @@
   color: #ffffff;
 }
 
-.aside-contact {
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-list-contact {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
