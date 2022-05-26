@@ -59,8 +59,8 @@
   color: #757575;
 }
 
-.contact-address:hover,
-.contact-address:focus {
+.contact-adress:hover,
+.contact-adress:focus {
   color: var(--accent-color);
 }
 
