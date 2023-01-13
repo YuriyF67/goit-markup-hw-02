@@ -8,6 +8,8 @@
     --light-bg-color: #F4F4FD;
 }
 
+/* ==================COMPONENTS================ */
+
 body {
     font-family: var(--primary-font)
 }
@@ -20,8 +22,18 @@ body {
     text-decoration: none;
 }
 
-/* ==================COMPONENTS================ */
+.active:visited {
+    /* OCEAN */
+    color: #404BBF;
+}
+
+.hero,
+.footer {
+    background-color: var(--dark-bg-color)
+}
+
 /* ==================/COMPONENTS================ */
+
 
 /* ==================HEADER==================== */
 .logo {
@@ -83,16 +95,206 @@ body {
 /* ==================/HEADER==================== */
 
 /* ==================HERO==================== */
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    /* or 107% */
+
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    /* display: flex;
+    align-items: center;
+    letter-spacing: 0.04em; */
+
+    color: #FFFFFF;
+/* Auto layout */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px; */
+
+    /* IRIS */
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
 /* ==================/HERO==================== */
 
 /* ==================FEATURES==================== */
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: var(--primary-text-color)
+}
+
+.features-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: var(--secondary-text-color);
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+}
+
 /* ==================/FEATURES==================== */
 
 /* ==================WORK==================== */
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;
+}
+
 /* ==================/WORK==================== */
 
 /* ==================TEAM==================== */
+
+.team {
+    background-color: var(--light-bg-color);
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+/* text-align: center; */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color: var(--primary-text-color);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: var(--primary-text-color);
+
+
+    /* Inside auto layout */
+/* 
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.team-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: var(--secondary-text-color);
+
+
+    /* Inside auto layout */
+
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+}
+
+.team-card {
+    /* Auto layout */    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 1780px; */
+
+    background: #FFFFFF;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */
+}
 /* ==================/TEAM==================== */
 
 /* ==================FOOTER==================== */
+
+.footer-txt {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: var(--accent-color);
+}
+
 /* ==================/FOOTER==================== */
