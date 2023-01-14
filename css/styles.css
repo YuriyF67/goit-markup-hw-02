@@ -10,6 +10,7 @@
     /* ==============BG================== */
     --dark-bg-color: #2E2F42;
     --light-bg-color: #F4F4FD;
+    --cornflower-bg-color: #E7E9FC;
     /* ============OTHER================= */
     --accent-color: #4D5AE5;
     --white-color: #FFFFFF;
@@ -148,13 +149,13 @@ color: var(--active-color);
 }
 
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-/* text-align: center; */
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color);
 }
 
 .team-name {
@@ -179,6 +180,50 @@ color: var(--primary-text-color);
     background: var(--white-color);
 }
 /* ==================/TEAM==================== */
+
+/* ===================PROJECTS================ */
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--accent-color);
+    background: var(--light-bg-color);
+    border: 1px solid var(--cornflower-bg-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:visited {
+    color: var(--active-color);
+}
+
+.card {
+    background: var(--white-color);
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* ==================/PROJECTS================ */
 
 /* ==================FOOTER==================== */
 
