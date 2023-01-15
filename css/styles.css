@@ -20,7 +20,8 @@
 /* ==================COMPONENTS================ */
 
 body {
-    font-family: var(--primary-font)
+    font-family: var(--primary-font);
+    color: var(--secondary-text-color);
 }
 
 .list {
@@ -75,7 +76,6 @@ color: var(--active-color);
 
 .mail,
 .tel {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -104,6 +104,7 @@ color: var(--active-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* ==================/HERO==================== */
@@ -119,11 +120,9 @@ color: var(--active-color);
 }
 
 .features-item {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
 }
 
 /* ==================/FEATURES==================== */
@@ -168,12 +167,10 @@ color: var(--active-color);
 }
 
 .team-item {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* text-align: center; */
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
 }
 
 .team-card {
@@ -215,12 +212,10 @@ color: var(--active-color);
 }
 
 .card-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* text-align: center; */
     letter-spacing: 0.02em;
-    color: var(--secondary-text-color);
 }
 
 /* ==================/PROJECTS================ */
@@ -232,7 +227,6 @@ color: var(--active-color);
 }
 
 .footer-txt {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
